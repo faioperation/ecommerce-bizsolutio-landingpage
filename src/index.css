@@ -1,20 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-
 :root {
-  --bg-dark: #050505;
-  --bg-card: #0a0a0a;
+  --bg-dark: #000000;
+  --bg-card: #0a0a0c;
   --bg-card-border: rgba(255, 255, 255, 0.08);
   --text-main: #ffffff;
-  --text-muted: #a1a1aa;
-  --brand-v-gradient: linear-gradient(135deg, #3b82f6, #ec4899);
-  --btn-gradient: linear-gradient(90deg, #6366f1, #d946ef);
-  --font-sans: 'Inter', system-ui, sans-serif;
+  --text-muted: #88888b;
+  --brand-v-gradient: linear-gradient(135deg, #4f46e5 0%, #ec4899 100%);
+  --btn-gradient: linear-gradient(90deg, #6366f1 0%, #d946ef 100%);
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --tracking-tight: -0.02em;
+  --tracking-tighter: -0.05em;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -22,8 +27,53 @@ body {
   background-color: var(--bg-dark);
   color: var(--text-main);
   line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background-image: url('https://grainy-gradients.vercel.app/noise.svg');
+  opacity: 0.05;
+  pointer-events: none;
+  z-index: 9999;
+  filter: contrast(150%) brightness(150%);
+}
+
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: reveal 1s cubic-bezier(0.21, 1.02, 0.73, 1) forwards;
+  scroll-margin-top: 100px;
+}
+
+@keyframes reveal {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}
+
+::selection {
+  background: rgba(236, 72, 153, 0.3);
+  color: #fff;
 }
 
 #root {

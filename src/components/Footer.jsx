@@ -7,7 +7,17 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-left">
           <div className="logo-group">
-            <div className="v-icon">V</div>
+            <div className="v-logo-wrapper">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 4L12 20L20 4" stroke="url(#v-gradient-footer)" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
+                <defs>
+                  <linearGradient id="v-gradient-footer" x1="4" y1="4" x2="20" y2="20" gradientUnits="userSpaceOnUse">
+                    <stop stopColor="#4f46e5"/>
+                    <stop offset="1" stopColor="#ec4899"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
             <span className="brand-name">VANGO</span>
             <div className="live-badge">
               <span className="pulse-dot"></span>
