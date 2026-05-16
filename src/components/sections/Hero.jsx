@@ -70,7 +70,7 @@ const Hero = () => {
                </svg>
             </a>
 
-            <button className="flex items-center gap-3 md:gap-4 text-white font-bold hover:text-brand-pink transition-colors group text-sm md:text-base">
+            <a href="#how-it-works" className="flex items-center gap-3 md:gap-4 text-white font-bold hover:text-brand-pink transition-colors group text-sm md:text-base">
 
                <span className="w-11 h-11 md:w-13 md:h-13 rounded-full border border-white/15 flex items-center justify-center group-hover:border-brand-pink/50 group-hover:bg-brand-pink/10 transition-all bg-white/5">
                   <svg
@@ -85,7 +85,7 @@ const Hero = () => {
                </span>
 
                See How It Works
-            </button>
+            </a>
          </div>
 
          {/* Users */}

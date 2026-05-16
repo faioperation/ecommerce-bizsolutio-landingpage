@@ -36,7 +36,7 @@ const FeaturesSplit = () => {
 
          {/* Seller Side */}
          <div
-            id="sellers"
+            id="for-sellers"
             className="relative group text-center lg:text-left"
          >
             <div className="inline-block px-4 py-2 rounded-full bg-gradient-to-r from-brand-purple to-brand-pink text-white text-[0.7rem] sm:text-[0.8rem] font-black tracking-[0.2em] mb-6 md:mb-8 border border-brand-purple/20 shadow-[0_0_20px_rgba(168,85,247,0.1)]">
@@ -99,7 +99,7 @@ const FeaturesSplit = () => {
 
          {/* Customer Side */}
          <div
-            id="customers"
+            id="for-customers"
             className="relative group text-center lg:text-left lg:pl-10"
          >
 

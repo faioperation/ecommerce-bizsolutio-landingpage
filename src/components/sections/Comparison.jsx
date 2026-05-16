@@ -82,7 +82,7 @@ const Comparison = () => {
   return (
 <section
    className="py-5 md:py-10 lg:py-15 bg-brand-purple/10 relative overflow-hidden"
-   id="usp"
+   id="how-it-works"
 >
    {/* Background Glows */}
    <div className="absolute inset-0 pointer-events-none">
