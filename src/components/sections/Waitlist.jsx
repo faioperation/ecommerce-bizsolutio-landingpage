@@ -51,7 +51,7 @@ const Waitlist = () => {
                      <h2 className="text-[2rem] sm:text-4xl md:text-5xl xl:text-6xl font-black leading-[1.05] tracking-tight text-white mb-5 md:mb-6">
                         The Next Era Of <br className="hidden sm:block" />
                         Selling{" "}
-                        <span className="bg-gradient-to-r from-[#ec4899] to-[#8b5cf6] bg-clip-text text-transparent">
+                        <span className="bg-gradient-to-r from-brand-pink to-brand-orange bg-clip-text text-transparent">
                            Starts Live.
                         </span>
                      </h2>
@@ -90,7 +90,7 @@ const Waitlist = () => {
                               className="flex items-center gap-2 text-[0.72rem] sm:text-sm font-semibold text-white/40"
                            >
                               <svg
-                                 className="w-4 h-4 text-white/30 shrink-0"
+                                 className="w-4 h-4 text-emerald-500 shrink-0"
                                  fill="none"
                                  stroke="currentColor"
                                  viewBox="0 0 24 24"

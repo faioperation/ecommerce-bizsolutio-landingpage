@@ -8,16 +8,17 @@ export default {
     extend: {
       colors: {
         brand: {
-          purple: '#a855f7',
-          orange: '#f97316',
-          pink: '#f43f5e',
-          dark: '#0a0a0c',
-          "dark-accent": '#151518',
+          purple: '#6228d7',
+          blue: '#4b4eea',
+          orange: '#ff4d4d',
+          pink: '#ee2a69',
+          dark: '#050505',
+          "dark-accent": '#101014',
         }
       },
       backgroundImage: {
-        'brand-gradient': 'linear-gradient(135deg, #a855f7 0%, #f97316 100%)',
-        'btn-gradient': 'linear-gradient(135deg, #a855f7 0%, #f43f5e 100%)',
+        'brand-gradient': 'linear-gradient(135deg, #4b4eea 0%, #ee2a69 100%)',
+        'btn-gradient': 'linear-gradient(90deg, #6228d7 0%, #ee2a69 100%)',
       }
     },
   },

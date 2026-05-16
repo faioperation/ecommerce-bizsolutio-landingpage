@@ -98,12 +98,12 @@ const Comparison = () => {
          {/* Header */}
          <div className="lg:col-span-3 lg:sticky lg:top-28 text-center lg:text-left">
 
-            <div className="hidden lg:flex items-center text-brand-purple text-[0.75rem] font-black tracking-[0.2em] mb-6 uppercase">
-               <span className="w-8 h-[2px] bg-brand-purple mr-4"></span>
+            <div className="hidden lg:flex items-center text-brand-blue text-[0.75rem] font-black tracking-[0.2em] mb-6 uppercase">
+               <span className="w-8 h-[2px] bg-brand-blue mr-4"></span>
                OUR USP
             </div>
 
-            <div className="text-brand-purple text-[0.75rem] font-black tracking-[0.2em] mb-5 uppercase lg:hidden">
+            <div className="text-brand-blue text-[0.75rem] font-black tracking-[0.2em] mb-5 uppercase lg:hidden">
                OUR USP
             </div>
 

@@ -23,19 +23,18 @@ const Hero = () => {
       <div className="flex-1 max-w-[620px] z-10 text-center lg:text-left">
 
          {/* Badge */}
-         <div className="inline-flex items-center gap-2 bg-red-500/10 border border-red-500/20 text-red-500 px-4 py-1.5 rounded-full text-[0.72rem] sm:text-[0.8rem] font-bold tracking-[0.2em] mb-6 md:mb-8 uppercase">
+         <div className="inline-flex items-center gap-2 bg-[#1a1a24]/50 border border-white/10 text-white/80 px-4 py-1.5 rounded-full text-[0.72rem] sm:text-[0.8rem] font-bold tracking-[0.2em] mb-6 md:mb-8 uppercase">
             <span className="w-1.5 h-1.5 bg-red-500 rounded-full shadow-[0_0_8px_#ef4444] animate-pulse"></span>
             COMING SOON
          </div>
 
          {/* Heading */}
-         <h1 className="text-[2.4rem] sm:text-5xl md:text-6xl xl:text-7xl font-extrabold leading-[0.95] tracking-tight mb-6 md:mb-8">
+         <h1 className="text-[2.4rem] sm:text-5xl md:text-6xl xl:text-7xl font-extrabold leading-[1.1] tracking-tight mb-6 md:mb-8">
             Built For
             <br />
             People Who
             <br />
-
-            <span className="bg-brand-gradient bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-brand-pink to-brand-blue bg-clip-text text-transparent">
                Sell Live.
             </span>
          </h1>
@@ -72,7 +71,7 @@ const Hero = () => {
 
             <a href="#how-it-works" className="flex items-center gap-3 md:gap-4 text-white font-bold hover:text-brand-pink transition-colors group text-sm md:text-base">
 
-               <span className="w-11 h-11 md:w-13 md:h-13 rounded-full border border-white/15 flex items-center justify-center group-hover:border-brand-pink/50 group-hover:bg-brand-pink/10 transition-all bg-white/5">
+               <span className="w-11 h-11 md:w-13 md:h-13 rounded-full border border-brand-purple/50 flex items-center justify-center bg-brand-purple/10 text-brand-purple group-hover:bg-brand-purple/20 transition-all shadow-[0_0_15px_rgba(107,33,168,0.3)]">
                   <svg
                      width="14"
                      height="14"
