@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+
+@layer base {
+  html {
+    @apply overflow-x-hidden;
+  }
+  body {
+    @apply bg-[#000] text-white font-sans antialiased overflow-x-hidden;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-[1200px] mx-auto px-6;
+  }
+
+  .text-gradient {
+    @apply bg-brand-gradient bg-clip-text text-transparent;
+  }
+}
+
+button {
+  @apply transition-colors duration-300 cursor-pointer;
+}
