@@ -146,7 +146,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed inset-0 bg-black/95 backdrop-blur-3xl z-[90] flex items-center justify-center transition-all duration-500 ${isMenuOpen
+        className={`fixed inset-0 bg-black z-[90] flex items-center justify-center transition-all duration-500 touch-none ${isMenuOpen
             ? 'opacity-100 visible'
             : 'opacity-0 invisible pointer-events-none'
           }`}

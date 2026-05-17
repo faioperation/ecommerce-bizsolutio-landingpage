@@ -52,7 +52,7 @@ const Hero = () => {
 
             <a
                href="#waitlist"
-               className="group flex items-center justify-center gap-3 bg-btn-gradient text-white px-7 md:px-8 py-4 rounded-md font-bold shadow-2xl shadow-brand-pink/25 hover:scale-105 active:scale-95 transition-all text-sm md:text-md w-full sm:w-auto"
+               className="group flex items-center justify-center gap-3 bg-btn-gradient text-white px-6 md:px-8 py-3 md:py-4 rounded-md font-bold shadow-2xl shadow-brand-pink/25 hover:scale-105 active:scale-95 transition-all text-sm md:text-md"
             >
                <span>Join the Waitlist</span>
 
