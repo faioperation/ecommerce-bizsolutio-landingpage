@@ -21,7 +21,7 @@ const FeaturesSplit = () => {
    ];
 
    return (
-      <section className="py-5 md:py-10 lg:py-15 bg-brand-purple/10 relative overflow-hidden">
+      <section id="seller-customer" className="py-5 md:py-10 lg:py-15 bg-brand-purple/10 relative overflow-hidden">
 
          {/* Background Glows */}
          <div className="absolute inset-0 pointer-events-none overflow-hidden">
@@ -36,7 +36,6 @@ const FeaturesSplit = () => {
 
                {/* Seller Side */}
                <div
-                  id="for-sellers"
                   className="relative group text-center md:text-start lg:text-start"
                >
                   <div className="inline-block px-3 py-1.5 rounded-full bg-gradient-to-r from-brand-purple to-brand-pink text-white text-[0.7rem] sm:text-[0.75rem] font-bold tracking-widest mb-6 md:mb-8 shadow-[0_0_15px_rgba(168,85,247,0.2)]">
@@ -92,7 +91,6 @@ const FeaturesSplit = () => {
 
                {/* Customer Side */}
                <div
-                  id="for-customers"
                   className="relative group text-center md:text-start lg:text-start lg:pl-10"
                >
 

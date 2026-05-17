@@ -208,7 +208,7 @@ const Hero = () => {
             </div>
 
             {/* RIGHT FLOATING CARDS */}
-            <div className="absolute top-[15%] right-[-20%] sm:right-[-20%] lg:right-[-25%] 2xl:right-[-27%] flex flex-col gap-2 sm:gap-3.5 z-30 scale-[0.6] sm:scale-[0.75] lg:scale-90 2xl:scale-100 origin-right">
+            <div className="absolute top-[15%] right-[-20%] sm:right-[-20%] lg:right-[-25%] 2xl:right-[-28%] flex flex-col gap-2 sm:gap-3.5 z-30 scale-[0.6] sm:scale-[0.75] lg:scale-90 2xl:scale-100 origin-right">
 
                {/* Watching */}
                <div className="bg-[#1a1a24]/40 backdrop-blur-md border border-white/10 p-4 px-6 rounded-[24px] flex items-center gap-5 shadow-[0_20px_50px_rgba(0,0,0,0.4)] hover:scale-105 transition-all duration-500">
@@ -221,7 +221,7 @@ const Hero = () => {
                   </div>
 
                   <div className="flex flex-col">
-                     <strong className="text-2xl font-bold text-white">
+                     <strong className="text-xl font-bold text-white">
                         82
                      </strong>
 
@@ -243,7 +243,7 @@ const Hero = () => {
                   </div>
 
                   <div className="flex flex-col">
-                     <strong className="text-2xl font-bold text-red-500">
+                     <strong className="text-xl font-bold text-red-500">
                         57
                      </strong>
 
@@ -273,7 +273,7 @@ const Hero = () => {
                 </div>
 
                 <div className="flex flex-col">
-                  <strong className="text-2xl font-bold text-red-500 leading-none">
+                  <strong className="text-xl font-bold text-red-500 leading-none">
                     00:57
                   </strong>
 
