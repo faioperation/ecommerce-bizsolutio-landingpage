@@ -72,7 +72,7 @@ const Hero = () => {
                </svg>
             </a>
 
-            <a href="#how-it-works" className="flex items-center gap-3 md:gap-4 text-white font-bold border border-white/10 rounded-lg hover:scale-105 active:scale-95 transition-all p-1.5 hover:text-brand-pink group text-sm md:text-base">
+            <a href="#how-it-works" className="flex items-center gap-3 md:gap-4 text-white font-bold border border-white/10 rounded-lg hover:scale-105 active:scale-95 transition-all p-1.5 pr-5 md:pr-6 hover:text-brand-pink group text-sm md:text-base">
 
                <span className="w-8 h-8 md:w-10 md:h-10 rounded-full border border-brand-purple/50 flex items-center justify-center bg-brand-purple/10 text-brand-purple group-hover:bg-brand-purple/20 transition-all shadow-[0_0_15px_rgba(107,33,168,0.3)]">
                   <svg
@@ -110,8 +110,8 @@ const Hero = () => {
                   3,248+ sellers already joined
                </strong>
 
-               <span className="text-[0.73rem] md:text-lg   text-white/50">
-                  Be early.Be successful.
+               <span className="text-[0.75rem] sm:text-sm text-white/50 mt-0.5">
+                  Be early. Be successful.
                </span>
             </div>
          </div>
@@ -120,7 +120,7 @@ const Hero = () => {
       {/* RIGHT CONTENT */}
       <div className="flex-1 relative z-10 flex justify-center lg:justify-end w-full">
 
-         <div className="relative w-full max-w-[260px] sm:max-w-[340px] md:max-w-[400px] lg:max-w-[460px] animate-fade-in-up lg:rotate-[6deg] hover:rotate-0 transition-transform duration-700">
+         <div className="relative w-full max-w-[260px] sm:max-w-[340px] md:max-w-[400px] lg:max-w-[460px] animate-fade-in-up rotate-[6deg] hover:rotate-0 transition-transform duration-700">
 
             {/* Hero Image */}
             <img
@@ -130,7 +130,7 @@ const Hero = () => {
             />
 
             {/* LEFT FLOATING CARDS */}
-            <div className="absolute top-[18%] left-[-34%] hidden 2xl:flex flex-col gap-3.5 z-30">
+            <div className="absolute top-[10%] sm:top-[18%] left-[-25%] sm:left-[-25%] lg:left-[-30%] 2xl:left-[-34%] flex flex-col gap-2 sm:gap-4.5 z-30 scale-[0.6] sm:scale-[0.75] lg:scale-90 2xl:scale-100 origin-left">
 
                {/* Purchase */}
                <div className="bg-[#1a1a24]/40 backdrop-blur-md border border-white/10 p-3 px-5 rounded-[22px] flex items-center gap-4 shadow-[0_20px_50px_rgba(0,0,0,0.3)] hover:scale-105 transition-all duration-500">
@@ -208,7 +208,7 @@ const Hero = () => {
             </div>
 
             {/* RIGHT FLOATING CARDS */}
-            <div className="absolute top-[15%] right-[-27%] hidden 2xl:flex flex-col gap-3.5 z-30">
+            <div className="absolute top-[15%] right-[-20%] sm:right-[-20%] lg:right-[-25%] 2xl:right-[-27%] flex flex-col gap-2 sm:gap-3.5 z-30 scale-[0.6] sm:scale-[0.75] lg:scale-90 2xl:scale-100 origin-right">
 
                {/* Watching */}
                <div className="bg-[#1a1a24]/40 backdrop-blur-md border border-white/10 p-4 px-6 rounded-[24px] flex items-center gap-5 shadow-[0_20px_50px_rgba(0,0,0,0.4)] hover:scale-105 transition-all duration-500">

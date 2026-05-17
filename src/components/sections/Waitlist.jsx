@@ -48,7 +48,7 @@ const Waitlist = () => {
 
                   {/* Center: Main CTA */}
                   <div className="lg:col-span-5 text-center lg:text-left px-4 sm:px-6 lg:px-0">
-                     <h2 className="text-[2rem] sm:text-2xl md:text-4xl xl:text-5xl font-bold text-white mb-4 md:mb-3 lg:mb-4">
+                     <h2 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold text-white mb-4 md:mb-5">
                         The Next Era Of <br className="hidden sm:block" />
                         Selling{" "}
                         <span className="bg-gradient-to-r from-brand-pink to-brand-orange bg-clip-text text-transparent">
@@ -56,29 +56,29 @@ const Waitlist = () => {
                         </span>
                      </h2>
 
-                     <p className="text-white/60 text-sm sm:text-base md:text-lg font-semibold mb-5 md:mb-6 max-w-[500px] mx-auto lg:mx-0">
+                     <p className="text-white/60 text-sm sm:text-base md:text-lg font-semibold mb-6 md:mb-8 max-w-[500px] mx-auto lg:mx-0">
                         Be among the first to experience Vango Live.
                      </p>
 
                      <form
-                        className="w-full max-w-lg mx-auto lg:mx-0 relative mb-5 md:mb-6"
+                        className="w-full max-w-lg mx-auto lg:mx-0 relative mb-6 md:mb-8"
                         onSubmit={(e) => e.preventDefault()}
                      >
-                        <div className="flex flex-col sm:flex-row gap-3 bg-[#050507] border border-white/10 p-3 rounded-md focus-within:border-brand-purple/30 transition-all">
+                        <div className="flex flex-col sm:flex-row gap-3 bg-[#050507] border border-white/10 p-2 sm:p-3 rounded-xl md:rounded-lg focus-within:border-brand-purple/30 transition-all shadow-[0_15px_40px_-15px_rgba(0,0,0,0.5)]">
                            <input
                               type="email"
                               placeholder="Enter your email"
-                              className="flex-1 bg-transparent border-none outline-none px-4 sm:px-4 py-2 text-white font-semibold text-sm md:text-base placeholder:text-white/20"
+                              className="flex-1 bg-transparent border-none outline-none px-4 py-3 sm:py-2 text-white font-semibold text-sm md:text-base placeholder:text-white/20"
                               required
                            />
 
-                           <button className="bg-brand-gradient text-white font-semibold px-2 py-2 rounded-xl md:rounded-md text-sm md:text-[0.9rem] hover:opacity-90 active:scale-[0.98] transition-all flex items-center justify-center gap-2 whitespace-nowrap">
+                           <button className="bg-btn-gradient text-white font-bold px-6 py-3.5 md:py-3 rounded-lg md:rounded-md text-[0.95rem] hover:scale-[1.02] active:scale-[0.98] transition-all flex items-center justify-center gap-2 whitespace-nowrap shadow-lg shadow-brand-pink/20">
                               Join the Waitlist &rarr;
                            </button>
                         </div>
                      </form>
 
-                     <div className="flex flex-wrap justify-center lg:justify-start gap-x-2 gap-y-2">
+                     <div className="flex flex-wrap justify-center lg:justify-start gap-x-4 gap-y-3">
                         {[
                            "Early Access",
                            "Founding Seller Perks",
@@ -87,10 +87,10 @@ const Waitlist = () => {
                         ].map((item) => (
                            <div
                               key={item}
-                              className="flex items-center text-[0.70rem] sm:text-sm font-semibold text-white/40"
+                              className="flex items-center text-[0.75rem] sm:text-sm font-semibold text-white/50"
                            >
                               <svg
-                                 className="w-4 h-4 text-emerald-500 shrink-0"
+                                 className="w-4 h-4 text-emerald-500 shrink-0 mr-1.5"
                                  fill="none"
                                  stroke="currentColor"
                                  viewBox="0 0 24 24"
@@ -113,25 +113,25 @@ const Waitlist = () => {
                   <div className="lg:col-span-3 flex flex-col gap-8 items-center lg:items-end px-4 sm:px-6 lg:px-0">
 
                      {/* Waitlist Count */}
-                     <div className="flex flex-col sm:flex-row items-center sm:items-center gap-2 text-center lg:text-right">
+                     <div className="flex flex-col sm:flex-row items-center sm:items-center gap-3 md:gap-4 text-center lg:text-right">
 
-                        <div className="flex -space-x-4">
+                        <div className="flex -space-x-3 md:-space-x-4">
                            {avatars.map((url, i) => (
                               <img
                                  key={i}
                                  src={url}
-                                 className="w-9 h-9 sm:w-10 sm:h-10 md:w-13 md:h-13 rounded-full border-4 border-[#0a0a0c] object-cover"
+                                 className="w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 rounded-full border-[3px] md:border-4 border-[#0a0a0c] object-cover shadow-lg"
                                  alt="User"
                               />
                            ))}
                         </div>
 
                         <div className="text-center sm:text-left">
-                           <div className="text-white/70 text-base md:text-md font-semibold leading-none">
-                              2,438+people
+                           <div className="text-white/80 text-[1.05rem] md:text-[1.15rem] font-bold leading-none mb-1">
+                              2,438+ people
                            </div>
 
-                           <div className="text-white/30 text-[0.68rem] sm:text-[0.75rem] font-semi mt-1">
+                           <div className="text-white/40 text-[0.75rem] sm:text-[0.8rem] font-semibold">
                               are on the waitlist
                            </div>
                         </div>
