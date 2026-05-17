@@ -11,7 +11,7 @@ const StatsBar = () => {
             </svg>
          ),
          title: 'Higher Conversions',
-         desc: 'Up to 3X more sales compared to other platforms',
+         desc: <>Up to 3X more sales compared<br/>to other platforms</>,
          color: 'text-purple-500',
       },
       {
@@ -23,7 +23,7 @@ const StatsBar = () => {
             </svg>
          ),
          title: 'Real-Time Sales',
-         desc: 'Buyers purchase without leaving the live',
+         desc: <>Buyers purchase without<br/>leaving the live</>,
          color: 'text-indigo-500',
       },
       {
@@ -33,7 +33,7 @@ const StatsBar = () => {
             </svg>
          ),
          title: 'Stronger Relationships',
-         desc: 'Build fan clubs and loyal customer communities',
+         desc: <>Build fan clubs and loyal<br/>customer communities</>,
          color: 'text-blue-500',
       },
       {
@@ -46,7 +46,7 @@ const StatsBar = () => {
             </svg>
          ),
          title: 'Better Retention',
-         desc: 'Keep customers coming back for more',
+         desc: <>Keep customers coming<br/>back for more</>,
          color: 'text-pink-500',
       },
       {
@@ -57,13 +57,16 @@ const StatsBar = () => {
             </svg>
          ),
          title: 'More Profit',
-         desc: 'Lower fees, more earnings for you',
+         desc: <>Lower fees, more<br/>earnings for you</>,
          color: 'text-rose-500',
       },
    ];
 
    return (
-      <section className="bg-brand-purple/10 relative z-20 -mt-10 sm:-mt-12 md:-mt-16 lg:-mt-20 overflow-hidden group/section">
+      <section 
+         className="bg-brand-purple/10 relative z-20 -mt-10 sm:-mt-12 md:-mt-16 lg:-mt-20 overflow-hidden group/section"
+         id="how-it-works"
+      >
 
          {/* Background Glow */}
          <div className="absolute top-1/2 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[250px] sm:w-[350px] lg:w-[450px] h-[250px] sm:h-[350px] lg:h-[450px] bg-brand-purple/10 blur-[120px] rounded-full opacity-0 group-hover/section:opacity-100 transition-opacity duration-1000"></div>
@@ -112,7 +115,7 @@ const StatsBar = () => {
                         </div>
 
                         {/* Title */}
-                        <h4 className="text-lg sm:text-[1.1rem] lg:text-[1.2rem] font-black mb-2 sm:mb-3 tracking-tight text-white relative z-10 group-hover/item:text-brand-purple transition-colors duration-300">
+                        <h4 className="text-lg sm:text-[1.1rem] lg:text-[1.2rem] font-semibold mb-2 sm:mb-3 text-white relative z-10 group-hover/item:text-brand-purple transition-colors duration-300">
                            {stat.title}
                         </h4>
 

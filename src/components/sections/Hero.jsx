@@ -3,9 +3,12 @@ import heroImg from '../../assets/ChatGPT Image May 16, 2026, 09_47_47 AM.png';
 
 const Hero = () => {
    const avatars = [
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop',
+      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop',
+      'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop',
+      'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=100&h=100&fit=crop',
       'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop',
-      'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop'
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop',
+      'https://images.unsplash.com/photo-1528892952291-009c663ce843?w=100&h=100&fit=crop'
    ];
 
   return (
@@ -29,7 +32,7 @@ const Hero = () => {
          </div>
 
          {/* Heading */}
-         <h1 className="text-[2.4rem] sm:text-5xl md:text-6xl xl:text-7xl font-extrabold leading-[1.1] tracking-tight mb-6 md:mb-8">
+         <h1 className="text-[2.4rem] sm:text-5xl md:text-6xl xl:text-7xl font-extrabold leading-[1.12] mb-6 md:mb-8">
             Built For
             <br />
             People Who
@@ -45,11 +48,11 @@ const Hero = () => {
          </p>
 
          {/* Buttons */}
-         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 md:gap-6 mb-10 md:mb-12">
+         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 md:gap-6 mb-6 md:mb-10">
 
             <a
                href="#waitlist"
-               className="group flex items-center justify-center gap-3 bg-btn-gradient text-white px-7 md:px-8 py-4 rounded-full font-bold shadow-2xl shadow-brand-pink/25 hover:scale-105 active:scale-95 transition-all text-sm md:text-base w-full sm:w-auto"
+               className="group flex items-center justify-center gap-3 bg-btn-gradient text-white px-7 md:px-8 py-4 rounded-md font-bold shadow-2xl shadow-brand-pink/25 hover:scale-105 active:scale-95 transition-all text-sm md:text-md w-full sm:w-auto"
             >
                <span>Join the Waitlist</span>
 
@@ -69,12 +72,12 @@ const Hero = () => {
                </svg>
             </a>
 
-            <a href="#how-it-works" className="flex items-center gap-3 md:gap-4 text-white font-bold hover:text-brand-pink transition-colors group text-sm md:text-base">
+            <a href="#how-it-works" className="flex items-center gap-3 md:gap-4 text-white font-bold border border-white/10 rounded-lg hover:scale-105 active:scale-95 transition-all p-1.5 hover:text-brand-pink group text-sm md:text-base">
 
-               <span className="w-11 h-11 md:w-13 md:h-13 rounded-full border border-brand-purple/50 flex items-center justify-center bg-brand-purple/10 text-brand-purple group-hover:bg-brand-purple/20 transition-all shadow-[0_0_15px_rgba(107,33,168,0.3)]">
+               <span className="w-8 h-8 md:w-10 md:h-10 rounded-full border border-brand-purple/50 flex items-center justify-center bg-brand-purple/10 text-brand-purple group-hover:bg-brand-purple/20 transition-all shadow-[0_0_15px_rgba(107,33,168,0.3)]">
                   <svg
-                     width="14"
-                     height="14"
+                     width="22"
+                     height="22"
                      viewBox="0 0 24 24"
                      fill="currentColor"
                      className="ml-1"
@@ -103,12 +106,12 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col text-center sm:text-left">
-               <strong className="text-sm md:text-base">
+               <strong className="text-base md:text-lg font-bold text-white">
                   3,248+ sellers already joined
                </strong>
 
-               <span className="text-[0.72rem] md:text-sm text-white/40">
-                  Be early. Be successful.
+               <span className="text-[0.73rem] md:text-lg   text-white/50">
+                  Be early.Be successful.
                </span>
             </div>
          </div>

@@ -11,18 +11,18 @@ const Footer = () => {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-8">
 
           {/* Left: Logo & Copyright */}
-          <div className="flex flex-col sm:flex-row items-center gap-6 md:gap-10 text-center sm:text-left">
+          <div className="flex flex-col sm:flex-row items-center gap-6 text-center sm:text-left">
             <div className="flex items-center">
               <img src={icon} alt="Vango Icon" className="h-10 md:h-12 w-auto object-contain transition-transform hover:scale-110 duration-500" />
               <img src={logo} alt="VANGO Logo" className="h-5 md:h-6 w-auto object-contain mt-1" />
             </div>
-            <p className="text-[0.75rem] md:text-[0.85rem] font-bold text-white/30 capitalize tracking-[0.2em] whitespace-nowrap">
-              &copy; {new Date().getFullYear()} Vango Live. <br /> <span className="xs:inline">All rights reserved.</span>
+            <p className="text-[0.75rem] md:text-[0.85rem] font-semibold text-white/30 capitalize whitespace-nowrap">
+              &copy; {new Date().getFullYear()} Vango Live. <span className="xs:inline">All rights reserved.</span>
             </p>
           </div>
 
           {/* Center: Links */}
-          <nav className="flex flex-wrap justify-center gap-6 md:gap-10 text-[0.7rem] md:text-[0.8rem] font-black text-white/40 capitalize tracking-widest">
+          <nav className="flex flex-wrap justify-center gap-6 md:gap-8 text-[0.8rem] md:text-[0.9rem] font-bold text-white/40 capitalize">
             {['Privacy Policy', 'Terms of Service', 'Seller Agreement', 'Contact Us'].map((link) => (
               <a key={link} href="#" className="hover:text-white transition-all hover:scale-105 active:scale-95">{link}</a>
             ))}
@@ -36,8 +36,8 @@ const Footer = () => {
               { id: 'yt', path: 'M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z' },
               { id: 'x', path: 'M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z' }
             ].map((social) => (
-              <a key={social.id} href="#" className="text-white/20 hover:text-white transition-all hover:scale-125 duration-300">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d={social.path} /></svg>
+              <a key={social.id} href="#" className="text-white/40 hover:text-white transition-all hover:scale-125 duration-300">
+                <svg width="25" height="25" viewBox="0 0 24 24" fill="currentColor"><path d={social.path} /></svg>
               </a>
             ))}
           </div>
